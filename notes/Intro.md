@@ -18,4 +18,17 @@ It's a **step-by-step solution** to solve a problem.
 
 ---
 
+## Time Complexity
+ How long an algorithm will take to run
+
+ ## Space Complexity
+ How much memory an algorithm will need as the amount of data it handles grows
+
+ ---
+ ---
+
+## constatn gives : O(1)
+## single for loop is : O(n)
+## nested loop is : O(n^2)
+## divide and conquer gives O(logn)
   
