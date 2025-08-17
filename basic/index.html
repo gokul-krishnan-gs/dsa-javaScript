@@ -6,19 +6,10 @@
   <title>Basic</title>
 </head>
 <body>
-  <script>
+  <script type="module">
+    import {studentDetails} from './index.js';
     const studentDatabase = ['Gokul','Aaron','Abin','Balu','Anoop'];
-    const studentDetails = (studentDatabase,studentName) => {
-      for(let i=0;i<studentDatabase.length;i++)
-      {
-        if(studentDatabase[i] === studentName){
-        console.log(`found : ${studentName}`);
-        };
-      }
-    };
-
     studentDetails(studentDatabase,'Gokul');
-    
   </script>
 </body>
 </html>
